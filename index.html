@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waifu404: Cuerpo No Encontrado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- INTRO con video de fondo -->
+  <div class="intro" id="intro">
+    <video autoplay muted loop playsinline id="bgVideo">
+      <source src="assets/video/video1.mp4" type="video/mp4">
+      Tu navegador no soporta videos.
+    </video>
+    <div class="intro-content">
+      <h1 class="glitch big" data-text="Waifu404: Cuerpo No Encontrado">Waifu404: Cuerpo No Encontrado</h1>
+      <button id="enterBtn" class="glitch-button hidden">Entrar</button>
+    </div>
+  </div>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="main-content" id="main">
+    <h1 class="glitch" data-text="Waifu404: Cuerpo No Encontrado">Waifu404: Cuerpo No Encontrado</h1>
+
+    <section>
+      <h2>🖋 Autores</h2>
+      <p>Celso Jiménez y Hannia Soto</p>
+    </section>
+
+    <section>
+      <h2>📆 Año de realización</h2>
+      <p>2025</p>
+    </section>
+
+    <section>
+      <h2>🏫 Institución</h2>
+      <p>Universidad Autónoma Metropolitana (UAM), Unidad Lerma</p>
+    </section>
+
+    <section>
+      <h2>🧩 ¿De qué trata?</h2>
+      <p>Una crítica visual e interactiva a la hipersexualización del cuerpo femenino en el anime y su impacto en adolescentes mexicanos.</p>
+    </section>
+
+    <section>
+      <h2>💡 Concepto</h2>
+      <p>
+        El anime produce estereotipos femeninos que afectan la percepción del cuerpo, el deseo y la feminidad. Con inspiración en Haraway, Preciado, Stuart Hall y Legacy Russell, esta pieza invierte el rol del cuerpo masculino y lo convierte en objeto de deseo distorsionado: glitcheado, sumiso, fragmentado. El glitch actúa como resistencia frente al modelo de belleza hegemónico.
+      </p>
+    </section>
+
+    <section>
+      <h2>🎞 Fotos, videos y audios</h2>
+      <ul>
+        <li>Capturas del proyecto en TouchDesigner</li>
+        <li>Videos glitch del cuerpo masculino</li>
+        <li>Audios interactivos</li>
+        <li><a href="https://www.tiktok.com/@adorkastock/video/7421561099029450027?lang=es-419" target="_blank">TikTok relacionado</a></li>
+      </ul>
+      <img src="img/cuerpo_glitch.jpg" alt="Glitch del cuerpo masculino" class="media-img">
+      <video controls class="media-video">
+        <source src="assets/video/video2.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+    </section>
+
+    <section>
+      <h2>🛠 ¿Cómo se realizó?</h2>
+      <p>
+        Investigación con teorías críticas y piezas de arte interactivo. Desarrollo técnico con TouchDesigner, manipulación de audio en tiempo real, contenedores visuales con frases y uso del glitch como estrategia estética.
+      </p>
+    </section>
+
+    <section>
+      <h2>🔗 GitHub del Proyecto</h2>
+      <p><a href="https://github.com/JimCelso" target="_blank">https://github.com/JimCelso</a></p>
+    </section>
+  </div>
+
+  <!-- Audio de inicio -->
+  <audio id="startSound" src="assets/audio/sayonara.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
